@@ -25,15 +25,15 @@ document.addEventListener("DOMContentLoaded", function () {
         // Click to Scroll Top //
 
           setTheme(localStorage.getItem("theme"));
-          setDirection(localStorage.getItem("direction"));
+          // setDirection(localStorage.getItem("direction"));
           
           $(".mode--toggle").on("click", function () {
               toggleTheme();
           });
           
-          $(".direction--toggle, .direction--toggletwo").on("click", function () {
-              toggleDirection();
-          });
+          // $(".direction--toggle, .direction--toggletwo").on("click", function () {
+          //     toggleDirection();
+          // });
           
           function toggleTheme() {
               const currentTheme = localStorage.getItem("theme");
@@ -45,15 +45,15 @@ document.addEventListener("DOMContentLoaded", function () {
               }
           }
           
-          function toggleDirection() {
-              const currentDirection = localStorage.getItem("direction");
+          // function toggleDirection() {
+          //     const currentDirection = localStorage.getItem("direction");
           
-              if (currentDirection === "ltr") {
-                  setDirection("rtl");
-              } else {
-                  setDirection("ltr");
-              }
-          }
+          //     if (currentDirection === "ltr") {
+          //         setDirection("rtl");
+          //     } else {
+          //         setDirection("ltr");
+          //     }
+          // }
           
           function setTheme(theme) {
               localStorage.setItem("theme", theme);
@@ -65,17 +65,17 @@ document.addEventListener("DOMContentLoaded", function () {
               }
           }
           
-          function setDirection(direction) {
-              localStorage.setItem("direction", direction);
+          // function setDirection(direction) {
+          //     localStorage.setItem("direction", direction);
           
-              if (direction === "rtl") {
-                  $("html").attr("dir", "rtl");
-                  $("body").addClass("rtlwrap");
-              } else {
-                  $("html").attr("dir", "ltr");
-                  $("body").removeClass("rtlwrap");
-              }
-          }
+          //     if (direction === "rtl") {
+          //         $("html").attr("dir", "rtl");
+          //         $("body").addClass("rtlwrap");
+          //     } else {
+          //         $("html").attr("dir", "ltr");
+          //         $("body").removeClass("rtlwrap");
+          //     }
+          // }
           
           // dark light and rtl ltr
 

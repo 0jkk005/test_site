@@ -1,176 +1,27 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <!-- ==== Required Meta ==== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ==== #Keywords ==== -->
-<meta name="keywords" content="boot, Bootstrap, BentoX - Protfolio HTML Template">
-    <!-- ==== #Description ==== -->
-    <meta name="description" content="BentoX - Protfolio HTML Template">
-    <!-- ==== #Title ==== -->
-    <title>BentoX - Grid System Unique Protfolio HTML Template</title>
-    <!-- ==== #Favicon ==== -->
-    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
-
-
-    <!-- ==== #aos animation ==== -->
-    <link rel="stylesheet" href="assets/css/plugins/aos.css">
-    <!-- ==== #Iconsax ==== -->
-    <link href="../iconsax.gitlab.io/i/icons.css" rel="stylesheet">
-    <!-- ==== #style.min ==== -->
-    <link rel="stylesheet" href="assets/css/style.min.css">
-</head>
+<?php include('head.php'); ?>
 
 <body class="position-relative">
 
-        <!-- ==== preloader ==== -->
-        <div id="preloader">
-            <div class="layla-preloader text-center">
-               
-            </div>
-        </div>
-        <!-- ==== preloader ==== -->
+<?php include('preloader.php'); ?>
 
-    <!-- ==== Custom Curpor Pointer ==== -->
-        <div class="mouse-follower">
-        <span class="cursor-outline"></span>
-        <span class="cursor-dot"></span>
-    </div>
-    <div class="text"></div>
-    <!-- ==== Custom Curpor Pointer ==== -->     
+<?php include('pointer.php'); ?>
 
     <!-- ==== Common Body start ==== -->
     <main class="main body-bg overflow-hidden">
 
-        <!-- ==== Dark Light Rtl Ltr Included ==== -->
-        <div class="tigger-arrow">
-            <div class="gear-icon">
-                <img src="assets/images/gear.png" alt="img">
-            </div>
-            <div class="tigger-property d-flex align-items-center pt-3 pb-3 px-6">
-                <div class="box">
-                    <div class="rtl-ltr mb-2">
-                        <button class="direction--toggle fw_400 rtl-v n0-color position-relative cus-z1">
-                            Rtl
-                        </button>
-                        <button class="direction--toggletwo fw_400 ltr-v">
-                            Ltr
-                        </button>
-                    </div>
-                    <a href="javascript:void(0)" class="mode--toggle gap-2 d-flex align-items-center position-relative cus-z1">
-                        <span class="n0-color dk-v text-uppercase fw_400">Dark</span>
-                        <span class="n0-color lg-v text-uppercase fw_400">Light</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- ==== Dark Light Rtl Ltr Included ==== -->
+<?php include('theme.php'); ?>
 
-        <!--Header Here-->
-        <header class="header-section mb-xxl-15 mb-xl-8 mb-7 mt-xxl-15 mt-xl-8 mt-7 header-sectionone">
-            <div class="one__header ">
-                <div class="container">
-                    <div class="main-navbar" data-aos="fade-up" data-aos-duration="1000">
-                        <nav class="navbar-custom">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <a href="index.html" class="nav-brand d-block d-lg-none">
-                                    <h4 class="fw_500 n0-color golelayla-logo">
-                                        Bento<span class="s1-color">X</span>
-                                    </h4>
-                                </a>
-                                <div class="d-flex gap-6">
-                                    <div class="switch-wrapper-top d-flex d-lg-none"></div>
-                                    <button class="navbar-toggle-btn d-block d-lg-none" type="button">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="navbar-toggle-item">
-                                <div class="d-flex gap-5 flex-column flex-lg-row text-lg-start text-center align-items-start align-items-lg-center justify-content-center justify-content-between mt-5 mt-lg-0">
-                                    <div class="navbar-brand logo d-none d-lg-flex">
-                                        <a href="index.html">
-                                            <h4 class="fw_600 n0-color">
-                                                Bento<span class="s1-color">X</span>
-                                            </h4>
-                                        </a>
-                                    </div>
-                                    <ul class="custom-nav d-grid d-lg-flex gap-5 gap-lg-8 gap-xl-10 justify-content-lg-start">
-                                        <li class="menu-item position-relative">
-                                            <a href="#0">
-                                                Home <i class="fas fa-chevron-down"></i>
-                                            </a>
-                                            <ul class="sub-menu home-scroolls box-shadow3">
-                                                <li class="menu-link pt-3">
-                                                    <a href="index.html">Home One</a>
-                                                </li>
-                                                <li class="menu-link pt-1">
-                                                    <a href="index-2.html">Home Two</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item position-relative">
-                                            <a href="about.html">
-                                                About
-                                            </a>
-                                        </li>
-                                        <li class="menu-item position-relative">
-                                            <a href="project.html">
-                                                Works
-                                            </a>
-                                        </li>
-                                        <li class="menu-item position-relative">
-                                            <a href="contact.html">
-                                                Contact
-                                            </a>
-                                        </li>
-                                        <li class="menu-item position-relative d-lg-none">
-                                            <a href="error.html">
-                                                404 
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div class="d-flex justify-content-center  m-auto m-lg-0 justify-content-lg-end">
-                                        <a href="contact.html" class="kewta-btn d-flex align-items-center">
-                                            <span class="kew-text">
-                                                Let’s Talk
-                                            </span>
-                                            <span class="kew-arrow">
-                                                <div class="kt-one">
-                                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        <path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    </svg>                                    
-                                                </div>
-                                                <div class="kt-two">
-                                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        <path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    </svg>                                    
-                                                </div>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!--Header End-->
+<?php include('header.php'); ?>
 
         <!--Section Title-->
         <div class="container position-relative cus-z1 d-flex justify-content-center justify-content-lg-start mb-xxl-15 mb-xl-8 mb-7">
             <div class="backmenu-head">
-                <a href="index.html" class="fw_400 fs-seven n0-color text-uppercase golelayla-logo">
+                <a href="index.php" class="fw_400 fs-seven n0-color text-uppercase golelayla-logo">
                     <svg width="20" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.57 5.92969L3.5 11.9997L9.57 18.0697" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M20.5019 12H3.67188" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -196,7 +47,7 @@
                                 Get In Touch
                             </h3>
                             <p class="fs20 n07">
-                                Don’t be afraid man! Just say hello
+                                Don’t be afraid man! Just say Hello!
                             </p>
                         </div>
                         <ul class="get-intouchwrap">
@@ -243,7 +94,7 @@
                                         Address
                                     </span>
                                     <a href="javascript:void(0)" class="ph">
-                                        775 Rolling Green Rd.
+                                        Currently available Remotely only!
                                     </a>
                                 </div>
                             </li>
@@ -251,40 +102,40 @@
                     </div>
                     <div class="col-xxl-9 col-xl-9 col-lg-8">
                         <div class="contact-form cmn-box py-xxl-15 py-lg-8 py-6 px-xxl-15 px-lg-8 px-6">
-                            <form action="#">
+                        <form id="contact-form" action="#" method="POST">
                                 <div class="row g-xxl-6 g-4">
                                     <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
                                         <div class="contact-cmnitem">
-                                            <label for="nam" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Name</label>
-                                            <input type="text" id="nam" placeholder="Your name">
+                                            <label for="name" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Name</label>
+                                            <input name="name" type="text" id="name" placeholder="Your name">
                                         </div>
                                     </div>
                                     <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1100">
                                         <div class="contact-cmnitem">
-                                            <label for="eml" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Email</label>
-                                            <input type="text" id="eml" placeholder="Your email">
+                                            <label for="email" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Email</label>
+                                            <input name="email" type="text" id="email" placeholder="Your email">
                                         </div>
                                     </div>
                                     <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1200">
                                         <div class="contact-cmnitem">
-                                            <label for="phs" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Phone (Optional)</label>
-                                            <input type="text" id="phs" placeholder="Your phone">
+                                            <label for="phone" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Phone (Optional)</label>
+                                            <input name="phone" type="text" id="phone" placeholder="Your phone">
                                         </div>
                                     </div>
                                     <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="1300">
                                         <div class="contact-cmnitem">
-                                            <label for="subs" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Subject</label>
-                                            <input type="text" id="subs" placeholder="Your subject">
+                                            <label for="subject" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Subject</label>
+                                            <input name="subject" type="text" id="subject" placeholder="Your subject">
                                         </div>
                                     </div>
                                     <div class="col-lg-12" data-aos="zoom-in-up" data-aos-duration="1400">
                                         <div class="contact-cmnitem">
-                                            <label for="subs" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Message</label>
-                                            <textarea name="mesg" rows="5" placeholder="Type your message..."></textarea>
+                                            <label for="message" class="fs20 fw_300 n0-color mb-xxl-3 mb-2">Message</label>
+                                            <textarea name="message" rows="5" placeholder="Type your message...">Hello, Iqbal... I have an interesting project for you, are you available?</textarea>
                                         </div>
                                     </div>
                                     <div class="sub-btn">
-                                        <button type="button" class="kewta-btn d-inline-flex align-items-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                                        <button type="submit" class="kewta-btn d-inline-flex align-items-center" data-aos="zoom-in-up" data-aos-duration="1000">
                                             <span class="kew-text">
                                                 Submit Now
                                             </span>
@@ -371,30 +222,30 @@
                 <div class="footer-wrap d-grid gap-4 justify-content-center d-lg-flex align-items-center justify-content-lg-between">
                     <div class="footer-copyright">
                         <span class="fw_400 n0-color">
-                            Copyright &copy; 2024 <a href="index.html" class="bento-tag">BentoX</a>
+                            Copyright &copy; 2024 <a href="index.php" class="bento-tag">BentoX</a>
                         </span>
                         <span class="fw_400 n0-color designed-by">
-                            Designed By <a href="https://themeforest.net/user/pixelaxis" class="s1-color">Pixelaxis</a>
+                            Designed By <a href="#!" class="s1-color">Iqbal Haider</a>
                         </span>
                     </div>
                     <ul class="footer-link justify-content-center flex-wrap position-relative cus-z1">
                         <li>
-                            <a href="index.html">
+                            <a href="index.php">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="about.html">
+                            <a href="about-me.php">
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href="project.html">
+                            <a href="projects.php">
                                 Works
                             </a>
                         </li>
                         <li>
-                            <a href="contact.html">
+                            <a href="contact.php">
                                 Contact
                             </a>
                         </li>
@@ -421,6 +272,38 @@
     <script src="assets/js/plugins/odometer.js"></script>
     <!-- ==== js Mian start ==== -->
     <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function(event) {
+                event.preventDefault();
+                var formData = $(this).serialize();
+                var submitButton = $('.sub-btn'); // Cache the submit button element
+
+                $.ajax({
+                    type: 'POST',
+                    url: 'contact_process.php',
+                    data: formData,
+                    success: function(response) {
+                        // Handle success
+                        submitButton.html('<p class="fs20 s1-color">' + response + '</p>');
+                        $('form').trigger('reset');
+
+                        // Re-enable the submit button after 5 seconds
+                        setTimeout(function() {
+                            submitButton.html('<button type="submit" class="kewta-btn d-inline-flex align-items-center" data-aos="zoom-in-up" data-aos-duration="1000"><span class="kew-text"> Submit Now </span><span class="kew-arrow"><div class="kt-one"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="kt-two"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div></span></button>');
+                        }, 5000); // 5 seconds delay
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle errors
+                        submitButton.html('<button type="submit" class="kewta-btn d-inline-flex align-items-center" data-aos="zoom-in-up" data-aos-duration="1000"><span class="kew-text"> Submit Now </span><span class="kew-arrow"><div class="kt-one"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="kt-two"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5625 10.9336L23.1446 11.1277L22.9504 19.7098" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.8516 22.875L23.0183 11.2466" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div></span></button>');
+                        alert('Error: ' + xhr.responseText);
+                    }
+                });
+            });
+        });
+
+
+</script>
 
 </body>
 
